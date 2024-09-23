@@ -1,6 +1,7 @@
 using System;
 
 using R5T.T0131;
+using R5T.T0143;
 
 
 namespace R5T.L0071
@@ -13,7 +14,10 @@ namespace R5T.L0071
     public partial interface IFileNameAffixes : IValuesMarker
     {
 #pragma warning disable IDE1006 // Naming Styles
+
+        [Ignore]
         Raw.IFileNameAffixes _Raw => Raw.FileNameAffixes.Instance;
+
 #pragma warning restore IDE1006 // Naming Styles
 
 
