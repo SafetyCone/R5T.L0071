@@ -5,6 +5,12 @@ using R5T.T0132;
 
 namespace R5T.L0071
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <remarks>
+    /// Deprecated. See F10Y.L0004.
+    /// </remarks>
     [FunctionalityMarker]
     public partial interface ICopyrightOperator : IFunctionalityMarker
     {
